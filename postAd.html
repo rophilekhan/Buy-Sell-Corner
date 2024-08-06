@@ -1,14 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    
 
-    <script src="https://cdn.tailwindcss.com"></script>
+<body>
+
+    <!-- navbar area started -->
+
+    <div class="navbar bg-base-100 bg-primary">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl text-white font-bold">Buy & Sell Corner</a>
+        </div>
+        <div class="flex-none">
+            <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                </div>
+                <div tabindex="0" class="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
+                    <div class="card-body">
+                        <span class="text-lg font-bold">8 Items</span>
+                        <span class="text-info">Subtotal: $999</span>
+                        <div class="card-actions">
+                            <button class="btn btn-primary btn-block">View cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                    <div class="w-10 rounded-full">
+                        <img alt="Tailwind CSS Navbar component"
+                            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                    </div>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li>
+                        <a class="justify-between">
+                            Profile
+                            <span class="badge">New</span>
+                        </a>
+                    </li>
+                    <li><a>Settings</a></li>
+                    <li><a>Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar area ended -->
+
+
+    <!-- Post add area started -->
+
+    <div class="mt-7 ">
+        <h1 class="text-2xl font-bold flex justify-center">Post AD</h1>
+    </div>
+
+    <br>
+
+    <div class="mt-5 p-20 ml-20 mr-20 bg-primary">
+        <div class="flex items-center justify-center mb-4">
+            <div class="w-32 h-32 rounded-xl border-8 border-solid border-white flex items-center justify-center">
+                <span class="text-white text-6xl"><a href=""></a> +</span>
+            </div>
+        </div>
+
+        <div class="font-bold text-white flex items-center justify-center">
+            <span>Upload Product Photo</span>
+        </div>
+    </div>
+        <!-- Post add area ended -->
+
+
+        <!-- text area started -->
+<div class="mt-2 p-20 " >
+        <input type="text" placeholder="Product Title" class="input input-bordered w-full mb-4">
+        <input type="number" placeholder="PD    Product Description"  class="textarea textarea-bordered w-full mb-4">
+        <input type="number" placeholder="RS     Enter Price"  class="textarea textarea-bordered w-full mb-4">
+        <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full">
+        <input type="text" placeholder="Enter Your Number" class="input input-bordered w-full mb-4">
+        <div class="flex justify-end">
+            <button class="btn btn-success">POST NOW</button>
+        </div>
+    
+    </div>
+    
+        
+
+        <!-- text area ended -->
+
+
+
+
+
+
+
+        <script src="https://cdn.tailwindcss.com"></script>
 </body>
+
 </html>
+
+
+
+<!-- <body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+        <h1 class="text-2xl font-bold mb-4">Buy / Sells Corner</h1>
+        <button class="btn btn-primary w-full mb-4">Post AD</button>
+        <div class="flex items-center justify-center mb-4">
+            <div class="w-24 h-24 border-2 border-dashed border-gray-300 flex items-center justify-center">
+                <span class="text-gray-400 text-4xl">+</span>
+            </div>
+        </div>
+        <input type="text" placeholder="Product Title" class="input input-bordered w-full mb-4">
+        <textarea placeholder="Product Description" class="textarea textarea-bordered w-full mb-4"></textarea>
+        <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full mb-4">
+        <input type="text" placeholder="Enter Your Number" class="input input-bordered w-full mb-4">
+        <button class="btn btn-success w-full">POST NOW</button>
+    </div> -->
